@@ -56,10 +56,10 @@ class DoublyLinkedList:
 
     # insert Nodes at specific location in linked list
     def insert_node(self, index, data):
-        # is linked list empty or index less than zero
+        # is linked list empty or index less than or equal to zero
         if self.head is None or index <= 0:
             # instantiate a new Node, then set head and tail to it
-            self.head = Node(data, self.head)
+            self.head = DoubleNode(data, self.head)
             self.tail = self.head
         # find our position to insert
         else:
