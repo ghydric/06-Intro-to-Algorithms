@@ -177,7 +177,7 @@ Trees
             b. ABCDEFG
 
         5. Assume that data are inserted into a binary search tree in the order 
-            DBACFEG. Preorder traversal would return these data in the order:
+            DBACFEG. Inorder traversal would return these data in the order:
             a. DBACFEG
             b. ABCDEFG 
 
