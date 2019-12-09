@@ -43,7 +43,7 @@ class BinaryTree:
     # helper print function
     def print_tree(self, traversal_type):
         if traversal_type == "preorder":
-            return self.preorder_print(self.root, "") # start with an empty string that will itself fill out
+            return self.preorder_print(self.root, "") # start with an empty string that will fill itself out
         elif traversal_type == "inorder":
             return self.inorder_print(self.root, "")
         elif traversal_type == "postorder":
